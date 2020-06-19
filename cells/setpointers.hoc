@@ -1,0 +1,17 @@
+// set up the pointers after the sections have been created
+
+proc setpointers() {
+  grindaway()  // in interpxyz.hoc, determines interpolated locations of nodes
+  forall {
+    if (ismembrane("xtra")) {
+      for (x) if (x!=0 && x!=1) {
+        setpointer im_xtra(x), i_membrane(x)
+        setpointer ex_xtra(x), e_extracellular(x)
+      }
+    }
+  }
+}
+
+//print "After any change to cell geometry or nseg, be sure to invoke setpointers()"
+
+setpointers()

@@ -2,16 +2,13 @@ def find_node_coordinates(fiberD,axon_trajectory):
     """
         Determine the coordinates of axon nodes for a give trajectory.
         Node spacing is determined by the fiber diameter
-
+        
         Inputs:
             fiberD = um, fiber diameter
             axon_trajectory = n x 3 array containing the line segments describing the axon trajectory
 
         Outputs:
             array of x,y,z coordinates of nodes with the proper spacing along the provided trajectory
-
-        Assumptions:
-            node spacing is less than the distance between points in axon_trajectory
         
     """
 

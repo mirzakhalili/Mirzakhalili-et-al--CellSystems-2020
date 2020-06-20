@@ -1,24 +1,8 @@
 /*--------------------------------------------------------------------
-2/02
-Cameron C. McIntyre
-SIMULATION OF PNS MYELINATED AXON
-
-This model is described in detail in:
-
-McIntyre CC, Richardson AG, and Grill WM. Modeling the excitability of
-mammalian nerve fibers: influence of afterpotentials on the recovery
-cycle. Journal of Neurophysiology 87:995-1006, 2002.
-
-This model can not be used with NEURON v5.1 as errors in the
-extracellular mechanism of v5.1 exist related to xc. The original
-stimulations were run on v4.3.1. NEURON v5.2 has corrected the 
-limitations in v5.1 and can be used to run this model.
+This model is modified from the MRG model published in
+Journal of Neurophysiology 87:995-1006, 2002.
 ----------------------------------------------------------------------*/
 
-/*
-09/26/13
-Modified by Scott Lempka to work with Python setup
-*/
 
 proc model_globels() {			
 	celsius=37			

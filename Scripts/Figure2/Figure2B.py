@@ -7,21 +7,20 @@ import os
 import matplotlib.pyplot as plt
 plt.rc('font',family='Arial',size=8)
 
-# I am taking the diagonal of the tensor of the white matter
 sigmaXX=0.6
 sigmaYY=0.083
 sigmaZZ=0.083
 
-f1 = 1000+100 # Hz, stimulus frequency
-f2 = 1000 # Hz, stimulus frequency
+f1 = 1000+100 
+f2 = 1000 
 
-fs = 1000*50*4  # Hz, sampling rate
+fs = 1000*50*4  
 
 t0=5.25/f1
 I1=sin(2*pi*f1*t0 +0)
 I2=sin(2*pi*f2*t0 +np.pi)
 
-I = 1.  # current source amplitude in A
+I = 1. 
 
 x = np.arange(-10e-3, 10e-3+1e-5, 5e-5)
 y = np.arange(-5e-3,  5e-3+1e-5, 5e-5)
@@ -62,8 +61,6 @@ EY=-tempY[:,:,indZ]
 Mag=np.sqrt(EX**2+EY**2)
 EX=EX/Mag*np.log10(Mag)
 EY=EY/Mag*np.log10(Mag)
-
-
 
 x = np.arange(-10e-3, 10e-3+1e-5, 5e-5)
 y = np.arange(-5e-3,  5e-3+1e-5, 5e-5)

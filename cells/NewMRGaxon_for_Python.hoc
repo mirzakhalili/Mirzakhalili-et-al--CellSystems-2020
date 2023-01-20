@@ -1,6 +1,9 @@
 /*--------------------------------------------------------------------
 This model is modified from the MRG model published in
 Journal of Neurophysiology 87:995-1006, 2002.
+
+The dynamics of the new model can be found in
+Cell Systems, 11(6), pp.557-572.
 ----------------------------------------------------------------------*/
 
 

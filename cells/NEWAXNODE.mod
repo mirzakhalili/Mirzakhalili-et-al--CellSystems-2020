@@ -7,6 +7,14 @@ TITLE Motor Axon Node channels
 :
 : This model is modified version of MRG described in detail in:
 :
+: Mirzakhalili, E., Barra, B., Capogrosso, M. and Lempka, S.F., 2020.
+: Biophysics of temporal interference stimulation. Cell Systems, 11(6), pp.557-572.
+:
+: The dynamics of the potassium channel in the original model is not physiological
+: (see the method section of https://doi.org/10.1016/j.cels.2020.10.004).
+: Please cite  Mirzakhalili-et-al--CellSystems-2020 when you use the modified model.
+:
+: The original model 
 : McIntyre CC, Richardson AG, and Grill WM. Modeling the excitability of
 : mammalian nerve fibers: influence of afterpotentials on the recovery
 : cycle. Journal of Neurophysiology 87:995-1006, 2002.

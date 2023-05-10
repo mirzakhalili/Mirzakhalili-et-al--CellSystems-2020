@@ -1,4 +1,4 @@
-# Mirzakhalili-et-al--CellSystems-2020
+# [Mirzakhalili-et-al--CellSystems-2020](https://doi.org/10.1016/j.cels.2020.10.004)
 
 You need NEURON software and Python to run the simulations. 
 You need to use NEURON to compile the files included in the “cells” folder to run the simulations.
